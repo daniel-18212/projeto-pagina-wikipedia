@@ -1,0 +1,65 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+}
+header {
+    text-align: center; /* Centraliza o conteúdo do header */
+    padding: 20px 0; /* Adicione algum espaço entre o header e o conteúdo abaixo */
+    background-color: #f0f0f0; /* Apenas para fins de visualização */
+}
+.logo {
+    display: inline-block; /* Permite que o header se ajuste ao tamanho do conteúdo */
+}
+
+h1 {
+    margin: 0; /* Remove as margens padrão do h1 para evitar espaços indesejados */
+}
+img {
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(192, 28, 28, 0.2); /* Adiciona a sombra como uma borda de fundo */
+}
+figcaption{
+    text-align: center;
+}
+p {
+    text-align: justify;
+}
+
+footer p {
+    text-align: center;
+    min-height: 30px; 
+    padding: 20px 0; /* Adicione algum espaço entre o footer e o conteúdo acima */
+    background-color: #f0f0f0; /* Apenas para fins de visualização */
+}
